@@ -1,0 +1,93 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: lightblue;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  gap: 64px;
+  padding: 32px;
+}
+
+#contenedor {
+  background-color: white;
+  border-radius: 8px;
+  padding: 12px;
+}
+
+#title {
+  display: flex;
+  justify-content: center;
+  background-color: whitesmoke;
+  border: 1px solid black;
+  border-radius: 8px;
+  box-shadow: 1px 1px grey;
+  padding: 4px;
+}
+
+.material {
+  display: flex;
+  flex-direction: column;
+  background-color: lightgray;
+  border: 1px solid black;
+  border-radius: 8px;
+  box-shadow: 2px 2px grey;
+  gap: 4px;
+  padding: 4px;
+  margin: 8px;
+  cursor: grab;
+}
+
+.productos {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 8px;
+  box-shadow: 1px 1px grey;
+  gap: 4px;
+  padding: 4px;
+  margin: 8px;
+}
+
+.unidades {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background-color: lightgray;
+  border: 1px solid black;
+  border-radius: 8px;
+  width: 18px;
+}
+
+.estaciones {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 300px;
+  height: 100px;
+  border: 2px dashed #ccc;
+  text-align: center;
+  padding: 8px;
+  margin: 8px
+}
+
+.estaciones.active {
+  background-color: #d4edda;
+  border-color: green;
+  color: green;
+}
+
+.estaciones.error {
+  background-color: #d4edda;
+  border-color: red;
+  color: red;
+}

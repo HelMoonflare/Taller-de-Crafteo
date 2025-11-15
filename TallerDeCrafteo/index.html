@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang='es'>
+
+<head>
+  <meta charset='UTF-8'>
+  <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+  <link rel='stylesheet' href='style.css'>
+  <script src='script.js' defer></script>
+  <title>TallerDeCrafteo</title>
+</head>
+
+<body>
+  <header>
+    <h1>Taller De Crafteo</h1>
+  </header>
+  <main>
+    <div id="contenedor">
+      <div id="title">
+        <h2>Inventario</h2>
+      </div>
+      <div id="wood" class="material" draggable="true">Madera</div>
+      <div id="powder" class="material" draggable="true">Pólvora</div>
+      <div id="iron" class="material" draggable="true">Hierro</div>
+    </div>
+    <div id="contenedor">
+      <div id="title">
+        <h2>Estaciones de trabajo</h2>
+      </div>
+      <div id="forja" class="estaciones">
+        <h3>
+          La Forja
+        </h3>
+        (Acepta: Hierro)
+      </div>
+
+      </p>
+      <div id="banco" class="estaciones">
+        <h3>
+          Banco de Carpintero
+        </h3>
+        (Acepta: Madera)
+      </div>
+      <div id="alquimia" class="estaciones">
+        <h3>
+          Mesa de Alquimia
+        </h3>
+        (Acepta: Pólvora)
+      </div>
+    </div>
+
+    <div id="contenedor">
+      <div id="title">
+        <h2>Almacén de productos</h2>
+      </div>
+      <div id="lingotes" class="productos">Lingotes de acero
+        <div id="ingotCounter" class="unidades">0</div>
+      </div>
+      <div id="flechas" class="productos">Flechas
+        <div id="arrowCounter" class="unidades">0</div>
+      </div>
+      <div id="bombas" class="productos">Bombas
+        <div id="bombCounter" class="unidades">0</div>
+      </div>
+    </div>
+  </main>
+</body>
+
+</html>
